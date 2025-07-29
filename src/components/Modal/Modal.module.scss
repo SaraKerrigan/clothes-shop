@@ -1,0 +1,95 @@
+.container {
+  width: 100%;
+  // position: fixed;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.227);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: fixed;
+  max-width: 700px;
+  top: 200px;
+  width: 100%;
+  z-index: 3;
+  background-color: azure;
+  border-radius: 5px;
+}
+
+.top {
+  background-color: #1e88e5;
+  padding: 0 15px;
+}
+
+.topText {
+  color: #ffffff;
+}
+
+.topClose {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.items {
+  padding: 0 15px;
+
+  border: none;
+
+  .itemsBtn {
+    background-color: #1e88e5;
+    cursor: pointer;
+    border: none;
+    padding: 3px;
+
+    i {
+      color: #ffffff;
+    }
+  }
+}
+
+.plus {
+  background: none;
+  border: none;
+  color: #1e88e5;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.minus {
+  background: none;
+  border: none;
+  color: #1e88e5;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bottom {
+  background-color: #1e88e5;
+  padding: 0 15px;
+  
+}
+
+.bottomText {
+  color: #ffffff;
+}
+
+.bottomPrice {
+  color: #ffffff;
+}
+
+.bottomBtn {
+  color: #ffffff;
+  background: none;
+  width: 153px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
